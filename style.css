@@ -1,0 +1,55 @@
+body {
+    display: block;
+    max-width: 1024px;
+    margin: 0 auto;
+
+    font: normal 16px/1.4 'Helvetica' , sans-serif;
+    color: #313640;
+
+    background-color: #F2F2F2;
+
+    cursor: pointer;
+}
+
+h1, h2 {
+    font-family: 'Playfair Display', Georgia, 'Times New Roman', Times,  serif;
+}
+
+h1 {
+    font-size: 2em;
+    text-align: center;
+    text-decoration: underline;
+}
+
+h2 {
+    font-size: 1.5em;
+}
+
+ul li {
+    list-style: disc;
+}
+
+a:link {
+    color: #313640;
+}
+
+a:visited {
+    color: #313640;
+}
+
+a:hover {
+    color: #586173;
+}
+
+.cv-photo {
+    max-height: 250px;
+    border: 2px solid #313640;
+}
+
+figure {
+    margin: 0;
+}
+
+section:not(:last-child) {
+    border-bottom: 2px solid #313640;
+}
